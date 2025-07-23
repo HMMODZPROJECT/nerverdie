@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #00ff99;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00ffcc;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.code-box {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ff99;
+  max-width: 600px;
+  font-size: 1em;
+}
+
+.code-line {
+  line-height: 1.6;
+}
+
+.comment {
+  color: #777;
+  font-style: italic;
+}
+
+.purple { color: #ff55ff; }
+.green { color: #00ff99; }
+.blue { color: #55ccff; }
+.yellow { color: #ffff88; }
+.console { color: #ff5555; }
+
+/* Tombol Musik dengan Font Orbitron */
+.btn-play {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #00ffcc, 0 0 40px #00ffcc50, 0 0 80px #00ffcc20;
+}
+
+.btn-play:hover {
+  background-color: #00ffcc20;
+  color: #0f0f0f;
+  box-shadow: 0 0 20px #00ffcc, 0 0 60px #00ffcc;
+}
